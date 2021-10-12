@@ -1,6 +1,6 @@
 {
-  "name": "add-asset-html-webpack-plugin",
-  "version": "0.0.0-development",
+  "name": "@lafourchette/add-asset-html-webpack-plugin",
+  "version": "3.2.0",
   "description": "Add a JS or CSS assets to a generated HTML file",
   "files": [
     "lib/",
@@ -25,7 +25,14 @@
     "pretravis": "npm run lint && npm run clean",
     "travis": "npm run cover"
   },
-  "repository": "SimenB/add-asset-html-webpack-plugin",
+  "publishConfig": {
+    "registry": "https://npmregistry.lafourchette.io",
+    "access": "restricted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lafourchette/add-asset-html-webpack-plugin.git"
+  },
   "keywords": [
     "dll",
     "html-webpack-plugin",
@@ -34,7 +41,7 @@
   "author": "Simen Bekkhus <sbekkhus91@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SimenB/add-asset-html-webpack-plugin/issues"
+    "url": "https://github.com/lafourchette/add-asset-html-webpack-plugin/issues"
   },
   "homepage": "https://github.com/SimenB/add-asset-html-webpack-plugin#readme",
   "dependencies": {
